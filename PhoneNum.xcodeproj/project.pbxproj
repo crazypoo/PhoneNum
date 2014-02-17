@@ -21,6 +21,9 @@
 		CC63B386184729F200A86B59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC63B368184729EF00A86B59 /* UIKit.framework */; };
 		CC63B38E184729F200A86B59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC63B38C184729F200A86B59 /* InfoPlist.strings */; };
 		CC63B390184729F200A86B59 /* PhoneNumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63B38F184729F200A86B59 /* PhoneNumTests.m */; };
+		CC63B39A18472A1A00A86B59 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC63B39918472A1A00A86B59 /* AddressBook.framework */; };
+		CC63B39C18472A2200A86B59 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC63B39B18472A2200A86B59 /* AddressBookUI.framework */; };
+		CC63B3A218472DB600A86B59 /* address.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63B3A118472DB600A86B59 /* address.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		CC63B38B184729F200A86B59 /* PhoneNumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoneNumTests-Info.plist"; sourceTree = "<group>"; };
 		CC63B38D184729F200A86B59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC63B38F184729F200A86B59 /* PhoneNumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneNumTests.m; sourceTree = "<group>"; };
+		CC63B39918472A1A00A86B59 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		CC63B39B18472A2200A86B59 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		CC63B3A018472DB600A86B59 /* address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = address.h; sourceTree = "<group>"; };
+		CC63B3A118472DB600A86B59 /* address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = address.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC63B39C18472A2200A86B59 /* AddressBookUI.framework in Frameworks */,
+				CC63B39A18472A1A00A86B59 /* AddressBook.framework in Frameworks */,
 				CC63B367184729EF00A86B59 /* CoreGraphics.framework in Frameworks */,
 				CC63B369184729EF00A86B59 /* UIKit.framework in Frameworks */,
 				CC63B365184729EF00A86B59 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		CC63B363184729EF00A86B59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC63B39B18472A2200A86B59 /* AddressBookUI.framework */,
+				CC63B39918472A1A00A86B59 /* AddressBook.framework */,
 				CC63B364184729EF00A86B59 /* Foundation.framework */,
 				CC63B366184729EF00A86B59 /* CoreGraphics.framework */,
 				CC63B368184729EF00A86B59 /* UIKit.framework */,
@@ -119,6 +130,8 @@
 				CC63B37A184729F100A86B59 /* ViewController.m */,
 				CC63B37C184729F100A86B59 /* Images.xcassets */,
 				CC63B36B184729F000A86B59 /* Supporting Files */,
+				CC63B3A018472DB600A86B59 /* address.h */,
+				CC63B3A118472DB600A86B59 /* address.m */,
 			);
 			path = PhoneNum;
 			sourceTree = "<group>";
@@ -251,6 +264,7 @@
 			files = (
 				CC63B37B184729F100A86B59 /* ViewController.m in Sources */,
 				CC63B375184729F000A86B59 /* AppDelegate.m in Sources */,
+				CC63B3A218472DB600A86B59 /* address.m in Sources */,
 				CC63B371184729F000A86B59 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

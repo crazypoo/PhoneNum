@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  address.m
 //  PhoneNum
 //
 //  Created by crazypoo on 11/28/13.
 //  Copyright (c) 2013 crazypoo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "address.h"
 
-@interface ViewController : UIViewController
-{
-}
+@implementation address
+@synthesize name, email, tel, recordID, sectionNumber; 
 @end
